@@ -8,24 +8,24 @@
     </head>
 
     <body>
-        <main>
-            <div class="main-flex-container">
-                <nav>
-                    <div id="right-nav">
-                        <ul>
-                            <li class="header-item"><a href="#" id="About">About</a></li>
-                            <li class="header-item"><a href="#" id="Store">Store</a></li>
-                        </ul>
-                    </div>
-                    <div id="left-nav">
-                        <ul>
-                            <li class="header-item"><a href="#" id="Gmail">Gmail</a></li>
-                            <li class="header-item"><a href="#" id="Images">Images</a></li>
-                            <li class="header-item icon"><a href="#" id="Apps "><span class="material-icons">apps</span></a></li>
-                            <li class="header-item icon"><a href="#"><span class="material-icons">person</span></a></li>
-                        </ul>
-                    </div>
-                </nav>
+        <div class="main-flex-container">
+            <nav>
+                <div id="right-nav">
+                    <ul>
+                        <li class="header-item"><a href="#" id="About">About</a></li>
+                        <li class="header-item"><a href="#" id="Store">Store</a></li>
+                    </ul>
+                </div>
+                <div id="left-nav">
+                    <ul>
+                        <li class="header-item"><a href="#" id="Gmail">Gmail</a></li>
+                        <li class="header-item"><a href="#" id="Images">Images</a></li>
+                        <li class="header-item icon"><a href="#" id="Apps "><span class="material-icons">apps</span></a></li>
+                        <li class="header-item icon"><a href="#"><span class="material-icons">person</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <main>
                 <div class="image-flex-container">
                     <div class="image">
                         <img id="google-logo" src="images/googlelogo_color_272x92dp.png">
@@ -39,47 +39,39 @@
                     </form>
                 </div>
                 <div id="button-container">
-                    <div class="button">
-                        <form>
-                            <input type="button" id="Google-Search" name="Google-Search">
-                            <label for="Google-Search">Google Search</label>
-                        </form>
-                        <form>
-                            <input type="button" id="I'm-Feeling-Lucky" name="I'm-Feeling-Lucky">
-                            <label for="I'm-Feeling-Lucky">I'm Feeling Lucky</label>
-                        </form>
-                    </div>
-                    <div>
-                        <form>
-
-                        </form>
-                    </div>
+                    <form id="buttons">
+                        <input class="button" aria-label="Google Search" value="Google Search" type="submit" id="Google-Search" name="Google-Search">
+                        <input class="button" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky" type="submit" id="Google-Search" name="Google-Search">
+                    </form>
                 </div>
-                <footer>
-                    <div id="location-flexbox">
+                <div id="white-space">
+
+                </div>
+            </main>
+            <footer>
+                <div id="location-flexbox">
+                    <ul>
+                        <li class="footer-item">Canada</li>
+                    </ul>
+                </div>
+                <div id="bottom-flexbox">
+                    <div id="bottom-right-footer">
                         <ul>
-                            <li class="footer-item">Canada</li>
+                            <li class="footer-item"><a href="#">Advertising</a></li>
+                            <li class="footer-item"><a href="#"> Business</a></li>
+                            <li class="footer-item"><a href="#"> How Search Works</a></li>
                         </ul>
                     </div>
-                    <div id="bottom-flexbox">
-                        <div id="bottom-right-footer">
-                            <ul>
-                                <li class="footer-item"><a href="#">Advertising</a></li>
-                                <li class="footer-item"><a href="#"> Business</a></li>
-                                <li class="footer-item"><a href="#"> How Search Works</a></li>
-                            </ul>
-                        </div>
-                        <div id="bottom-left-footer">
-                            <ul>
-                                <li class="footer-item"><a href="#">Privacy</a></li>
-                                <li class="footer-item"><a href="#">Terms</a></li>
-                                <li class="footer-item"><a href="#">Settings</a></li>
-                            </ul>
-                        </div>
-                           
+                    <div id="bottom-left-footer">
+                        <ul>
+                            <li class="footer-item"><a href="#">Privacy</a></li>
+                            <li class="footer-item"><a href="#">Terms</a></li>
+                            <li class="footer-item"><a href="#">Settings</a></li>
+                        </ul>
                     </div>
-                </footer>
-            </div>
-        </main>    
+                        
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
